@@ -24,9 +24,11 @@ D) A lógica é quadrados de números pares, portatno seria o quadrado de 8 que 
 E) A lógica apresentada é a mesma da questão 2 a sequência de Fibonacci, portatno o próximo número seria: 13.
 
 F) A lógica aqui seria que os números começam com D, assim o próximo seria 200.
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
-
-4) - Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca,
+4)
+- Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca,
 a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia,
 qual estará mais próximo a cidade de Ribeirão Preto?
 IMPORTANTE:
