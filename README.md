@@ -28,47 +28,16 @@ F) A lógica aqui seria que os números começam com D, assim o próximo seria 2
 
 
 
-4)Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca,
-a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia,
-qual estará mais próximo a cidade de Ribeirão Preto?
-IMPORTANTE:
+4)Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
+Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 -------------------------------------------------------------------------------------------
-a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
 
-b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+Com apenas duas visitas à sala das lâmpadas, é possível realizar o seguinte procedimento.
 
-c) Explique como chegou no resultado:
--------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------
-O carro e o caminhão estão à mesma distância de Ribeirão Preto ao cruzarem. Eles estão a 60,9 km de Ribeirão Preto.
-
-Qual é o procedimento para determinar o ponto de cruzamento?
-Para determinar o ponto de referência entre o veículo e o caminhão, é possível utilizar a equação horária do veículo.
-
-x1 = v1.t
-
-Caminhão sai de um local 100 km distante do ponto de referência e se aproxima dele, a equação horária é:
-x2 = 100km - v2.t
-
-
-Considerando que o caminhão enfrenta dois pedágios como obstáculo e perde 5 minutos em cada um, podemos calcular o tempo de viagem sem os obstáculos:
-tSo = 100km/ 80km/h = 1,25h
-
-
-No entanto, considerando que o caminhão desperdiça 10 minutos (ou 0,17 horas) nos pedágios, o tempo de viagem para o caminhão será de 1,25h+0,17h=1,42h. Sua velocidade média é:
-v2 = 100km/1,42h = 70,6 km/h
-
-
-Nas equações horárias podemos limpar o tempo e igualar ambas para achar o ponto em que o carro e o caminhão se cruzam:
-
-t = x1/v1  =>  t = x2 - 100km/ -v2
-
-x1 = x2 => x/v1 = x-100km/-v2  =>
-
--v2.x = v1.x - v1.100km  =>
-
-x = v1.100km/v1+v2 = 110km/H . 100km/ 110km/h + 70,6km/h  =>
-
-X = 60,9KM
-
-É a distância da cidade de Ribeirão Preto em que o carro e o caminhão se cruzam, ambos na mesma distância.
+Ative um dos dispositivos e espere por alguns instantes.
+Após alguns minutos, desligue o dispositivo que você havia ligado anteriormente e, ao mesmo tempo, conecte outro dispositivo que ainda não foi ativado.
+Vá para a sala de iluminação agora.
+Se uma lâmpada estiver acesa, o interruptor que você ligou primeiro controla aquela lâmpada.
+Se a lâmpada estiver apagada, toque na lâmpada (que está fria, pois foi desligada) para identificá-la e marque essa lâmpada como controlada pelo interruptor que você desligou anteriormente.
+A lâmpada restante será controlada pelo último interruptor que você ligou.
+Com a presença de duas pessoas na sala de iluminação, é viável determinar o dispositivo que controla cada lâmpada.
