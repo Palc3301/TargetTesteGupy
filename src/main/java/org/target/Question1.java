@@ -1,4 +1,4 @@
-package org.example;
+package org.target;
 
 public class Question1 {
     public static void soma() {
